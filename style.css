@@ -192,7 +192,7 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 2px;
     }
 
     #jogo {
@@ -233,8 +233,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 1px;
-        margin-top: 10px;
+        margin-bottom: 50px;
     }
 
     .playerx,
@@ -286,21 +285,24 @@ body {
         justify-content: center;
         align-items: center;
         margin-right: 0;
-        margin-top: 60vh;
     }
 
     .vez {
+        position: relative;
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
         color: var(--tb-color);
         font-size: 14px;
+        top: 53.5vh;
     }
 
     .vez_name {
+        position: relative;
         font-family: "Montserrat", sans-serif;
         font-weight: 700;
         color: var(--vez-cor);
         font-size: 14px;
+        top: 53.5vh;
     }
 }
 /* Estilos Específicos para Dispositivos Médios */
@@ -321,7 +323,7 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 2px;
     }
 
     #jogo {
@@ -362,8 +364,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 1px;
-        margin-top: 10px;
+        margin-bottom: 50px;
     }
 
     .playerx,
@@ -415,21 +416,24 @@ body {
         justify-content: center;
         align-items: center;
         margin-right: 0;
-        margin-top: 60vh;
     }
 
     .vez {
+        position: relative;
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
         color: var(--tb-color);
         font-size: 14px;
+        top: 53.5vh;
     }
 
     .vez_name {
+        position: relative;
         font-family: "Montserrat", sans-serif;
         font-weight: 700;
         color: var(--vez-cor);
         font-size: 14px;
+        top: 53.5vh;
     }
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -449,7 +453,7 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 2px;
     }
 
     #jogo {
@@ -490,8 +494,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 1px;
-        margin-top: 10px;
+        margin-bottom: 50px;
     }
 
     .playerx,
@@ -543,20 +546,23 @@ body {
         justify-content: center;
         align-items: center;
         margin-right: 0;
-        margin-top: 60vh;
     }
 
     .vez {
+        position: relative;
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
         color: var(--tb-color);
         font-size: 14px;
+        top: 53.5vh;
     }
 
     .vez_name {
+        position: relative;
         font-family: "Montserrat", sans-serif;
         font-weight: 700;
         color: var(--vez-cor);
         font-size: 14px;
+        top: 53.5vh;
     }
 }
