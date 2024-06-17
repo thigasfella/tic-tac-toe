@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 :root{
     --bg-color: #212529;
@@ -310,12 +310,14 @@ body {
 @media (min-width: 601px) and (max-width: 1024px) {
     body {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-        height: 100vh;
+        justify-content: center;
+        height: 100vh; /* Garante que o corpo ocupe a altura total da tela */
         margin: 0;
+        padding: 0;
         background-color: var(--bg-color);
-        flex-direction: column; /* Adicionado para garantir a coluna */
+
     }
 
     #container {
@@ -324,6 +326,7 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
+        flex-grow: 0.5; /* Permite que o contêiner cresça para ocupar o espaço disponível */
         margin-top: 2px;
     }
 
@@ -362,16 +365,13 @@ body {
     }
 
     .nomesPlayers {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 50px;
+        margin: 0 auto;
     }
 
     .playerx,
     .playero {
         margin-bottom: 10px;
-        margin-right: 0;
+        margin-right:0;
         border-bottom: 1px solid var(--tb-color);
     }
 
@@ -414,27 +414,22 @@ body {
 
     .container_vez {
         display: flex;
-        justify-content: center;
         align-items: center;
         margin-right: 0;
+        margin: 0 auto;
     }
 
     .vez {
-        position: relative;
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
         color: var(--tb-color);
         font-size: 14px;
-        top: 53.5vh;
     }
 
     .vez_name {
-        position: relative;
         font-family: "Montserrat", sans-serif;
         font-weight: 700;
         color: var(--vez-cor);
         font-size: 14px;
-        top: 53.5vh;
     }
 }
-
