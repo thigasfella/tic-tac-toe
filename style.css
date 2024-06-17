@@ -177,13 +177,9 @@ body {
 /* Estilos Específicos para Pequenos Dispositivos */
 @media (max-width: 600px) {
     body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+        flex-direction: column;
         margin: 0;
         background-color: var(--bg-color);
-   
     }
 
     #container {
@@ -230,16 +226,13 @@ body {
     }
 
     .nomesPlayers {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 75vh;
+        margin: 0 auto;
     }
 
     .playerx,
     .playero {
         margin-bottom: 10px;
-        margin-right:5vw;
+        margin-right:0;
         border-bottom: 1px solid var(--tb-color);
     }
 
@@ -283,8 +276,8 @@ body {
     .container_vez {
         display: flex;
         align-items: center;
-        margin-right: 5vw;
-        margin-top: 40vh;
+        margin-right: 0;
+        margin: 0 auto;
     }
 
     .vez {
