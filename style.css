@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 :root{
     --bg-color: #212529;
@@ -19,6 +18,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: var(--bg-color);
+    overflow-x: hidden;
 }
 
 #container {
@@ -96,7 +96,7 @@ body {
 
 .playerx input,
 .playero input {
-    padding: 12.5px;
+    padding: 12px;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     border-radius: 5px;
@@ -104,7 +104,7 @@ body {
 }
 #name01,
 #name02{
-    width: 214px;
+    width: 224px;
     height: 80px;
     border: 1px solid var(--tb-color);
     border-radius: 5px;
@@ -326,7 +326,6 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        flex-grow: 0.5; /* Permite que o contêiner cresça para ocupar o espaço disponível */
         margin-top: 2px;
     }
 
@@ -424,6 +423,7 @@ body {
         font-weight: 400;
         color: var(--tb-color);
         font-size: 14px;
+        margin: 0;
     }
 
     .vez_name {
@@ -431,5 +431,6 @@ body {
         font-weight: 700;
         color: var(--vez-cor);
         font-size: 14px;
+        margin: 0;
     }
 }
